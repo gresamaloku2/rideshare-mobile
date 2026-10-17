@@ -22,3 +22,5 @@ rideshare-mobile/
 - Hap terminalin në dosjen `aplikacioni/`.
 - Repozitori kryesor mbetet në nivelin `rideshare-mobile/`.
 - Git është lidhur me remote `origin`.
+
+
