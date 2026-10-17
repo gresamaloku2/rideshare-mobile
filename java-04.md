@@ -1,9 +1,5 @@
 # RideShare — Java 4 · Neon dhe PostgreSQL
 
-Ruaje këtë skedar si java-04.md pranë README, jashtë aplikacioni/.
-Plotëso të gjitha përgjigjet; hiqi shenjat [PLOTËSO].
-Mos vendos DATABASE_URL, pamje të kredencialeve ose të dhëna reale.
-
 ## Çfarë ndërtova
 Lidha aplikacionin RideShare me databazën PostgreSQL në Neon duke përdorur paketën @neondatabase/serverless. Të gjitha faqet (lista kryesore, detajet dhe kërkesa e simuluar) tani i lexojnë të dhënat drejtpërdrejt nga tabela `udhetimet` përmes funksioneve asinkrone dhe `force-dynamic`.
 
