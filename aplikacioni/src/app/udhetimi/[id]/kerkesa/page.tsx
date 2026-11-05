@@ -36,7 +36,11 @@ export default async function Kerkesa({
           <p>Ruajtjen dhe konfirmimin real do t’i shtojmë më vonë.</p>
         </>
       ) : (
-        <h1>Nuk ka vende të lira.</h1>
+        <>
+          <h1>Nuk ka vende të lira</h1>
+          <p>Ky udhëtim është plotësuar. Nuk mund të dërgohet kërkesë për rezervim.</p>
+          <Link className="action" href="/">Kthehu te lista e udhëtimeve</Link>
+        </>
       )}
     </main>
   );
