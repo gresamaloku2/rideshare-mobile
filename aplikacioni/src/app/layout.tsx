@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Pwa from "@/components/Pwa";
 
 export const metadata: Metadata = {
-  title: "RideShare",
+  title: "RideShare AAB",
   description: "Aplikacion për ndarjen e udhëtimeve për në AAB",
 };
 
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sq">
-      <body>{children}</body>
+      <body>
+        <Pwa />
+        {children}
+      </body>
     </html>
   );
 }
